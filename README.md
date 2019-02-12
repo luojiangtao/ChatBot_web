@@ -1,9 +1,10 @@
 # 聊天机器人
 一个使用Tensorflow框架通过Sequence To Sequence模型训练出的简单的聊天机器人。  
-  
+
 ![效果截图](https://raw.githubusercontent.com/luojiangtao/ChatBot_web/master/1.png)  
 
 
+*   在线体验 http://ai.luojiangtao.com:8000
 ## 2.项目结构介绍  
  - config.py  整个项目的配置文件，如语料库的存放位置，模型的参数等  
  - data_unit.py 处理语料库的类，对原始语料进行清洗，并生成批训练数据。  
